@@ -1,2 +1,92 @@
-# Transacation-Risk-Assessment-Prevention
-This Fraud Detection System analyzes financial transactions to predict whether they are fraudulent or safe using a machine learning model. The model is integrated with Gradio, allowing users to enter transaction details and receive real-time fraud detection results.
+Fraud Detection System
+
+Overview
+
+The Fraud Detection System is a machine learning-based application designed to analyze financial transactions and predict fraudulent activities. It utilizes an anomaly detection model and integrates with a Gradio interface to provide real-time fraud detection.
+
+Features
+
+Real-time Fraud Detection: Instantly checks transactions for anomalies.
+
+Machine Learning-Based Analysis: Uses a trained model to predict fraudulent behavior.
+
+User-Friendly Interface: Integrated with Gradio for ease of use.
+
+Continuous Learning: Updates its knowledge base with new data.
+
+Scalable & Efficient: Optimized for fast predictions with minimal latency.
+
+Technologies Used
+
+Python
+
+TensorFlow/Keras for LSTM-based anomaly detection
+
+Scikit-Learn for Isolation Forest Model
+
+Pandas & NumPy for data processing
+
+Gradio for UI/UX interaction
+
+Google Colab/VS Code for execution and development
+
+System Architecture
+
+The system consists of the following components:
+
+Data Preprocessing: Converts transaction details into numerical values.
+
+Model Prediction: Analyzes transaction patterns for anomalies.
+
+User Interface: Accepts inputs and displays fraud predictions.
+
+Continuous Learning: Updates model with new transaction data.
+
+![f13535dd786da01c2132c90279fd87b5_Blank%20diagram%20(2) 1](https://github.com/user-attachments/assets/2ed1dda6-d2c9-4fee-993e-8ec137315362)
+
+
+Installation & Setup
+
+Running in Google Colab
+
+Open Google Colab and upload the project files.
+
+Install dependencies:
+
+!pip install gradio tensorflow scikit-learn pandas numpy
+
+Run the script to start the Gradio interface.
+
+Running in VS Code
+
+Clone the repository:
+
+git clone https://github.com/your-repo/fraud-detection.git
+
+Install required packages:
+
+pip install -r requirements.txt
+
+Run the application:
+
+python app.py
+
+Usage Instructions
+
+Enter transaction details (Date, Amount, Location) in the Gradio UI.
+
+Click 'Detect Fraud' to analyze the transaction.
+
+View results: The system will display if the transaction is safe ✅ or fraudulent 🚨.
+
+New data is logged, and the model updates periodically for improved accuracy.
+
+Future Enhancements
+
+Integration with Real-Time APIs (e.g., Google Pay, PayPal transactions)
+
+More Advanced Deep Learning Models for fraud detection
+
+Automated Model Retraining for continuous learning
+
+Cloud Deployment for scalability
