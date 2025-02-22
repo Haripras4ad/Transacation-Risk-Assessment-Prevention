@@ -64,7 +64,7 @@ Running in Google Colab
 Open Google Colab and upload the project files.
 
 
-<h2>STALL DEPENDENCIES</h2>
+<h2>INSTALL DEPENDENCIES</h2>
 
 <h3>Install required packages:</h3>
 
