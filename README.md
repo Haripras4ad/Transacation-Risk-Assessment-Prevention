@@ -1,10 +1,10 @@
-FRAUD DETECTION SYSTEM
+###FRAUD DETECTION SYSTEM
 
-OVERVIEW
+##OVERVIEW
 
 The Fraud Detection System is a machine learning-based application designed to analyze financial transactions and predict fraudulent activities. It utilizes an anomaly detection model and integrates with a Gradio interface to provide real-time fraud detection.
 
-FEATURES
+##FEATURES
 
 Real-time Fraud Detection: Instantly checks transactions for anomalies.
 
@@ -16,7 +16,8 @@ Continuous Learning: Updates its knowledge base with new data.
 
 Scalable & Efficient: Optimized for fast predictions with minimal latency.
 
-TECHNOLOHY USED
+
+##TECHNOLOHY USED
 
 Python
 
@@ -30,7 +31,8 @@ Gradio for UI/UX interaction
 
 Google Colab/VS Code for execution and development
 
-SYSTEM ARCHITECTURE
+
+##SYSTEM ARCHITECTURE
 
 The system consists of the following components:
 
@@ -45,13 +47,14 @@ Continuous Learning: Updates model with new transaction data.
 ![f13535dd786da01c2132c90279fd87b5_Blank%20diagram%20(2) 1](https://github.com/user-attachments/assets/2ed1dda6-d2c9-4fee-993e-8ec137315362)
 
 
-INSTALLATION AND SETUP
+##INSTALLATION AND SETUP
 
 Running in Google Colab
 
 Open Google Colab and upload the project files.
 
-INSTALL DEPENDENCIES:
+
+##INSTALL DEPENDENCIES:
 
 Install required packages:
 
@@ -71,7 +74,8 @@ View results: The system will display if the transaction is safe ✅ or fraudule
 
 New data is logged, and the model updates periodically for improved accuracy.
 
-FUTURE ENHANCEMENT
+
+##FUTURE ENHANCEMENT
 
 Integration with Real-Time APIs (e.g., Google Pay, PayPal transactions)
 
